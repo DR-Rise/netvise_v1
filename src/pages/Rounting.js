@@ -25,7 +25,7 @@ function Routing() {
                         <p><span>Dynamic</span> </p>
                     </li>
                 </ul>
-                <img className={style.dynamic} src={dynamicRout} alt="Dynamic Routing Protocols"/>
+                
                 <h1>Static Routing Protocols</h1>
                 <p>Static routing protocols are used when an administrator manually assigns the path from source to the destination network. It offers more security to the network.</p>
                 <ul>
@@ -41,6 +41,7 @@ function Routing() {
                     </li>
                 </ul>
                 <h1>Dynamic Routing Protocols </h1>
+                <img className={style.dynamic} src={dynamicRout} alt="Dynamic Routing Protocols"/>
                 <p>Dynamic routing protocols are another important type of routing protocol. It helps routers to add information to their routing tables from connected routers automatically. These types of protocols also send out topology updates whenever the network changes' topological structure.</p>
                 <ul>
                     <li>
